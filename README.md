@@ -12,20 +12,26 @@ The Flashcards app is an iOS mobile application that allows users to create, org
 - Adaptive and responsive UI using Auto Layout
 
 ## User Flow
-- Use the **Add** button to open the New Card screen
-  - Enter the question and answer
-  - Tap Save to add the flashcar
-  - An alert prevents adding duplicate questions
-- The **Cards** tab shows all flashcards in a table view
-  - Tap a flashcard cell to flip it and study
-  - Swipe left to delete a card
-  - Long press and drag to reorder cards
-- The **Favorites** tab displays favorited flashcards
-- The **Question** tab shows a single flashcard in large text
-  - Double tap to flip between question and answer
-  - Swipe to advance to the next flashcard
-- Star icons favorite/unfavorite flashcards
+### Question tab
+- The **Question** tab shows a single flashcard in large text with the **questions** being defaultly presented
+  - **Double-Tap** the card to flip between question and answer
+  - **Swipe Left** to advance to the next flashcard & **Swipe Right** to go back to the previous flashcard 
+  - Tab the **star icons** at the top right corner favorite/unfavorite flashcards
+    - yellow star means the card is favored; white start means the card is unfavored
 - Data persists when the app is closed and reopened
+
+### Cards tab
+- The **Cards** tab shows all flashcards in a table view
+  - Tap the **Edit** button at the top left corner to edit the order of the cards or delete cards
+  - Tap the **Add (+)** button at the top right corner to open the **"Add A New Card"** screen
+    - On the "Add A New Card" screen, user can input a question-answer pair to be added as a new flashcard
+    - Tap *Save* to add the flashcar
+    - Tap *Cancel* to exit the page
+    - An alert prevents adding duplicate questions
+
+### Favorites tab
+- The **Favorites** tab displays favorited/starred flashcards in a table view
+- The table is updated real-time and consistent with what is starred and what is not in the **Question** tab
 
 ## Technical Details
 ### The app is built with:
