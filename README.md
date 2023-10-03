@@ -15,7 +15,9 @@ The Flashcards app is an iOS mobile application that allows users to create, org
 ### Question tab
 - The **Question** tab shows a single flashcard in large text with the **questions** being defaultly presented
   - **Double-Tap** the card to flip between question and answer
-  - **Swipe Left** to advance to the next flashcard & **Swipe Right** to go back to the previous flashcard 
+  - **Swipe Left** to advance to the next flashcard & **Swipe Right** to go back to the previous flashcard
+    - This is when the user what to follow the order of the cards in the **Cards** tab
+  - **Single-Tap** to view a card randomly, same as shaffling all the flashcards and picking a random one
   - Tab the **star icons** at the top right corner favorite/unfavorite flashcards
     - yellow star means the card is favored; white start means the card is unfavored
 - Data persists when the app is closed and reopened
