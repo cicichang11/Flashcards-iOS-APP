@@ -22,6 +22,9 @@ The Flashcards app is an iOS mobile application that allows users to create, org
     - yellow star means the card is favored; white start means the card is unfavored
 - Data persists when the app is closed and reopened
 
+<img src="img/Question.png" alt="screenshot" width="200"/> <img src="img/Answer.png" alt="screenshot" width="200"/>
+<img src="img/Unfavored.png" alt="screenshot" width="200"/> <img src="img/unfavored_answer.png" alt="screenshot" width="200"/>
+
 ### Cards tab
 - The **Cards** tab shows all flashcards in a table view
   - Tap the **Edit** button at the top left corner to edit the order of the cards or delete cards
@@ -31,9 +34,13 @@ The Flashcards app is an iOS mobile application that allows users to create, org
     - Tap *Cancel* to exit the page
     - An alert prevents adding duplicate questions
 
+<img src="img/Cards.png" alt="screenshot" width="200"/> <img src="img/Edit.png" alt="screenshot" width="200"/> <img src="img/Add.png" alt="screenshot" width="200"/>
+
 ### Favorites tab
 - The **Favorites** tab displays favorited/starred flashcards in a table view
 - The table is updated real-time and consistent with what is starred and what is not in the **Question** tab
+
+<img src="img/Favorites.png" alt="screenshot" width="200"/>
 
 ## Technical Details
 ### The app is built with:
